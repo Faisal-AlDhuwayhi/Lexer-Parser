@@ -37,7 +37,7 @@ To run the following program, open the terminal or the command line window. Then
 ```
 jflex lexer.jflex 
 ```
-1. Compile the yacc file. This would directly create the java code file "Parser.java" and "ParserVal.java".
+2. Compile the yacc file. This would directly create the java code file "Parser.java" and "ParserVal.java".
    
 ```
 yacc -J parser.y 
@@ -53,7 +53,7 @@ javac Lexer.java
 javac Parser.java
 ```
 
-*Note*: You can run all the previous commands as one line of commands, by embedding '&&' between them:
+*Note*: You can run all the previous commands as one line of commands, by embedding '&&' between them, like:
 ```
 jflex lexer.jflex && yacc -J parser.y && javac Lexer.java && javac Parser.java
 ```
